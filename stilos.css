@@ -1,0 +1,81 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Bahnschrift', cursive;
+    font-size: 12pt;
+    background-color: #232543;
+    padding: 5px;
+    margin: 0;
+}
+
+h1 {
+    font-size: 30pt;
+    color: #ffffff;
+    text-align: center;
+    padding: 18px 0 18px 0;
+    margin: 0 0 10px 0;
+    text-shadow: -2px -2px 0px #000, 2px 2px 0px #000, -2px 2px 0px #000, 2px -2px 0px #000;
+}
+
+h2 {
+    font-size: 15pt;
+    color: #ffffff;
+    text-align: center;
+    padding: 5px 0 5px 0;
+    margin: 0 0 10px 0;
+}
+
+#header {
+    background: url("https://images.alphacoders.com/192/192593.jpg") no-repeat center;
+    background-size: cover;
+}
+
+#header img {
+    display: block;
+    width: 80px;
+    height: 80px;
+    margin: auto;
+}
+
+.section {
+    background-color: #090A17;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+}
+
+table {
+    width: 97%;
+}
+
+table,
+tr,
+td {
+    border: 2px solid #cecece;
+    border-collapse: collapse;
+    text-align: center;
+    table-layout: fixed;
+}
+
+.titles {
+    background-color: #FF4D00;
+    font-weight: bold;
+    color: white;
+}
+
+.titles2 {
+    background-color: white;
+    font-weight: bold;
+    color: black;
+}
+
+button {
+    background-color: #FF4D00;
+    padding: 3px;
+    border-radius: 5px;
+    color: white;
+    border: 2px solid #cecece;
+}

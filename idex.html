@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="stilos.css" rel="stylesheet" />
+    <title>Alquiler de patinetas</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/funciones.js"></script>
+</head>
+
+<body>
+    <div id="header" class="section">
+        <h1>Alquiler de Patinetas</h1>
+    </div>
+
+    <!--Inicio de CRUD categorias-->
+    <div style="text-align:center;" class="section">
+        <h2>Categorias</h2>
+    </div>
+    <div style="text-align:center;" id="resultadoCa" class="section"></div>
+    <div style="text-align:center;" class="section">
+        <input type="text" id="nameCa" placeholder="name">
+        <input type="text" id="descriptionCa" placeholder="description">
+    </div>
+    <p align="center"><button onclick="getCategoria()">Cosultar</button> <button onclick="postCategory()">Guardar</button>
+        <!--Final de CRUD categorias -->
+        <!--Inicio de CRUD Patinestas-->
+        <div style="text-align:center;" class="section">
+            <h2>Patinetas</h2>
+        </div>
+        <div style="text-align:center;" id="resultadoPs" class="section"></div>
+        <div style="text-align:center;" class="section">
+            <input type="number" id="id" placeholder="id">
+            <input type="text" id="brand" placeholder="brand">
+            <input type="number" id="model" placeholder="model">
+            <input type="number" id="category_id" placeholder="category_id">
+            <input type="text" id="name" placeholder="name">
+        </div>
+        <p align="center"><button onclick="getPatinetas()">Cosultar</button> <button onclick="postPatinetas()">Guardar</button> <button onclick="putPatinetas()">Actualizar</button></p>
+        <!--Final de CRUD patinetas -->
+
+        <!--Inicio CRUD Clientes -->
+        <div style="text-align:center;" class="section">
+            <h2>Registro Clientes</h2>
+        </div>
+        <div style="text-align:center;" id="resultadoCs" class="section"></div>
+        <div style="text-align:center;" class="section">
+            <input type="number" id="idC" placeholder="id">
+            <input type="text" id="nameC" placeholder="name">
+            <input type="text" id="emailC" placeholder="email">
+            <input type="number" id="ageC" placeholder="age">
+        </div>
+        <p align="center"><button onclick="getClientes()">Cosultar</button> <button onclick="postClientes()">Registrar</button> <button onclick="putClientes()">Actualizar</button></p>
+        <!--Fin CRUD Clientes-->
+
+        <!--Inicio CRUD Mensajes-->
+        <div style="text-align:center;" class="section">
+            <h2>Registro Mensajes</h2>
+        </div>
+        <div style="text-align:center;" id="resultadoMs" class="section"></div>
+        <div style="text-align:center;" class="section">
+            <input type="number" id="idM" placeholder="id">
+            <input type="text" id="messagetext" placeholder="messagetext">
+        </div>
+        <p align="center"><button onclick="getMensajes()">Cosultar</button> <button onclick="postMensajes()">Registrar</button> <button onclick="putMensajes()">Actualizar</button></p>
+</body>
+
+</html>
